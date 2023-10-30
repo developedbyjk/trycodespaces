@@ -28626,6 +28626,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * freely use on your site.
  */ var _deskJpg = require("../images/desk.jpg");
 var _deskJpgDefault = parcelHelpers.interopDefault(_deskJpg);
+g;
 const imageAltText = "desk";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28638,7 +28639,7 @@ const Home = ({ name , title  })=>{
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 30,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28653,20 +28654,20 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 31,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28684,18 +28685,18 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 36,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 35,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 5
     }, undefined);
 };
@@ -28717,7 +28718,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/desk.jpg":"2F7TO"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/desk.jpg":"2F7TO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"2F7TO":[function(require,module,exports) {
