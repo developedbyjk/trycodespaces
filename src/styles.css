@@ -13,7 +13,10 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/* add a smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 div#main {
   display: flex;
   flex-direction: column;
@@ -118,8 +121,34 @@ a:hover {
   padding: 24px 16px;
   text-align: center;
 }
+.container button{
+  background-color: #4e567e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}
 
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* add a slide in animation */
+.slide-in {
+  animation: slide-in 0.5s forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
