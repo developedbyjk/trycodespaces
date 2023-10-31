@@ -8,6 +8,10 @@ html, body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div#main {
   width: 100vw;
   flex-direction: column;
@@ -113,9 +117,35 @@ a:hover {
   display: flex;
 }
 
+.container button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4e567e;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem auto 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+.slide-in {
+  animation: slide-in .5s forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
