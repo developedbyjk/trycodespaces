@@ -76,7 +76,10 @@ const Portfolio = () => {
               </a>
               <p className="small">{project.description}</p>
               <br/>
-              <a href={project.url}>{project.title}</a>
+              <a href={project.url}>
+                {" "}
+                <button>{project.title}</button>
+              </a>
             </div>
           ))}
         </div>
