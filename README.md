@@ -35,6 +35,7 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 <details>
    <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
    
+   
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
