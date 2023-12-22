@@ -22,6 +22,7 @@ In this "choose your own adventure" template portfolio, we have a [React](https:
 
 ![JavaScript profile web application](/__images__/js-portfolio-site.gif "JavaScript profile web application")
 
+
 ### Quick Start
 
 
